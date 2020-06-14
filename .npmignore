@@ -1,0 +1,6 @@
+example/
+test/
+
+.eslintignore
+.eslintrc.js
+tsconfig.json

@@ -1,0 +1,37 @@
+{
+	"name": "quick-weighted-random",
+	"version": "1.0.0",
+	"description": "Quick and simple weighted random chooser",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"lint": "npx eslint . --ext .ts,.js",
+		"build": "tsc -p .",
+		"test": "jest test/index.test.js",
+		"prepublishOnly": "npm run lint && npm run build && npm run test"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"weighted",
+		"random",
+		"quick",
+		"fast"
+	],
+	"homepage": "https://github.com/qxy/quick-weighted-random",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/qxy/quick-weighted-random.git"
+	},
+	"author": "Krisztián Gesztiványi",
+	"license": "MIT",
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^3.2.0",
+		"@typescript-eslint/parser": "^3.2.0",
+		"eslint": "^7.2.0",
+		"eslint-plugin-jest": "^23.13.2",
+		"jest": "^26.0.1",
+		"typescript": "^3.9.5"
+	}
+}
