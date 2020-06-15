@@ -1,6 +1,6 @@
 {
 	"name": "quick-weighted-random",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Quick and simple weighted random chooser",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
