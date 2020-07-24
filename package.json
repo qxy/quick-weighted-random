@@ -1,6 +1,6 @@
 {
 	"name": "quick-weighted-random",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Quick and simple weighted random chooser",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
@@ -27,11 +27,11 @@
 	"author": "Krisztián Gesztiványi",
 	"license": "MIT",
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^3.2.0",
-		"@typescript-eslint/parser": "^3.2.0",
-		"eslint": "^7.2.0",
-		"eslint-plugin-jest": "^23.13.2",
-		"jest": "^26.0.1",
-		"typescript": "^3.9.5"
+		"@typescript-eslint/eslint-plugin": "^3.7.0",
+		"@typescript-eslint/parser": "^3.7.0",
+		"eslint": "^7.5.0",
+		"eslint-plugin-jest": "^23.18.0",
+		"jest": "^26.1.0",
+		"typescript": "^3.9.7"
 	}
 }
